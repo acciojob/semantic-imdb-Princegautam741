@@ -1,2 +1,46 @@
+body {
+    font-family: Arial, sans-serif;
+}
 
-/* Your CSS Code here. */
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+header {
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: blue;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+aside {
+    background-color: #f0f0f0;
+    padding: 10px;
+}
+
+footer {
+    text-align: center;
+    margin-top: 20px;
+}
